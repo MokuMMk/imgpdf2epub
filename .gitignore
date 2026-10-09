@@ -1,0 +1,46 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ---------- PyInstaller 构建产物 ----------
+build/
+dist/
+*.manifest.bak
+
+# ---------- .NET / WinUI 构建产物 ----------
+WinUI/bin/
+WinUI/obj/
+WinUI/publish/
+*.user
+*.suo
+.vs/
+
+# ---------- 发布包（由 Releases 提供，不入库）----------
+dist-msix/
+dist-setup/
+msix-stage/
+installer-payload/
+
+# ---------- 测试 / 临时产物 ----------
+test_scan.pdf
+test_colors.pdf
+_tmp_imgs/
+icon/preview/
+icon/_*.png
+icon/_*.html
+_*.py
+
+# ---------- 本地证书（各人自行生成）----------
+*.cer
+*.pfx
+*.pvk
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
